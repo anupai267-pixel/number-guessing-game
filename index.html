@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+
+```
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<div class="game-container">
+
+    <h1>🎯 Number Guessing Game</h1>
+
+    <p class="description">
+        Guess the secret number and see how quickly you can find it!
+    </p>
+
+    <!-- Difficulty -->
+    <label for="difficulty">Choose Difficulty:</label>
+
+    <select id="difficulty">
+        <option value="easy">Easy (1 - 50)</option>
+        <option value="medium">Medium (1 - 100)</option>
+        <option value="hard">Hard (1 - 200)</option>
+    </select>
+
+    <!-- Guess Input -->
+    <input
+        type="number"
+        id="guessInput"
+        placeholder="Enter your guess"
+    >
+
+    <button id="guessButton">Check Guess</button>
+
+    <!-- Result -->
+    <p id="message"></p>
+
+    <!-- Attempts -->
+    <p>
+        Attempts:
+        <span id="attempts">0</span>
+    </p>
+
+    <!-- Restart -->
+    <button id="restartButton">Restart Game</button>
+
+</div>
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>

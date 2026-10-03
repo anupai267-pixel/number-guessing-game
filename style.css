@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #36bcf7, #0e75b6);
+min-height: 100vh;
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+padding: 20px;
+
+
+}
+
+.game-container {
+background-color: white;
+width: 100%;
+max-width: 450px;
+
+
+padding: 35px;
+border-radius: 15px;
+
+text-align: center;
+
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+
+}
+
+h1 {
+color: #0e75b6;
+margin-bottom: 15px;
+}
+
+.description {
+margin-bottom: 25px;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+}
+
+select,
+input {
+width: 100%;
+padding: 12px;
+margin-bottom: 15px;
+
+
+border: 1px solid #ccc;
+border-radius: 8px;
+
+font-size: 16px;
+
+
+}
+
+button {
+width: 100%;
+padding: 12px;
+
+
+border: none;
+border-radius: 8px;
+
+background-color: #0e75b6;
+color: white;
+
+font-size: 16px;
+cursor: pointer;
+
+margin-bottom: 15px;
+
+
+}
+
+button:hover {
+background-color: #095985;
+}
+
+#message {
+min-height: 30px;
+font-weight: bold;
+margin: 15px 0;
+}
+
+#restartButton {
+background-color: #36bcf7;
+}
+
+#restartButton:hover {
+background-color: #168dcc;
+}
+
+@media (max-width: 500px) {
+
+
+.game-container {
+    padding: 25px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+
+}
